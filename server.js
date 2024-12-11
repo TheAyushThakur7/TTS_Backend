@@ -2,9 +2,13 @@ import express from 'express';
 import * as PlayHT from 'playht';
 import fs from 'fs';
 import path from 'path';
+import cors from 'cors';  // Import cors
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+// Use CORS middleware
+app.use(cors());
 
 // Set up middleware to parse JSON
 app.use(express.json());
