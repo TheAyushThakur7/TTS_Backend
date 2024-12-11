@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "express": "^4.18.2",
-    "playht": "^1.0.0",
+    "playht": "*",
     "dotenv": "^16.0.3"
   },
   "engines": {
