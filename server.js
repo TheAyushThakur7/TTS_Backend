@@ -1,8 +1,8 @@
-import express from 'express';
-import * as PlayHT from 'playht';
-import fs from 'fs';
-import path from 'path';
-import cors from 'cors';  // Import cors
+const express = require('express');
+const PlayHT = require('playht');
+const fs = require('fs');
+const path = require('path');
+const cors = require('cors');  // Import cors
 
 const app = express();
 const PORT = process.env.PORT || 3000;
